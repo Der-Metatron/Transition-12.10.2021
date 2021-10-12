@@ -1,0 +1,90 @@
+body {background-color: black;}
+
+header {text-align: center;
+        font-family: 'Faster One', cursive;
+        color: lavenderblush;
+        text-decoration: underline;
+        }
+
+h2 {text-align: center;}
+              
+  
+
+.cube1 {
+    
+    border: groove;
+    width: 400px;
+    height: 400px;
+    background: #40040F;
+    transition: background 2s, transform 2s;
+    font-family: 'Faster One', cursive;
+    
+    
+  }
+  
+  .cube1:hover {
+    background: #8C1A0F;
+    transform: rotate(180deg)  /* Rotiert nach rechts */
+/*  border-radius: 7rem; */
+    
+  }
+
+  .cube2 {
+    text-align: center;
+    border: groove;
+    width: 400px;
+    height: 400px;
+    background:#F27507;
+    transition: background 2s, transform 2s;
+    
+    
+  }
+  
+  .cube2:hover {
+    background: #BF2806;
+    transform: rotate(-180deg) 
+  }
+
+  .cube3 {
+    text-align: center;
+    border: groove;
+    width: 400px;
+    height: 400px;
+    background:#BF2806;
+    transition: background 2s, transform 2s;
+    
+    
+  }
+  
+  .cube3:hover {
+    background: #F27507;
+    transform: rotate(180deg) 
+  }
+  .cube4 {
+    text-align: center;
+    border: groove;
+    width: 400px;
+    height: 400px;
+    background:#8C1A0F;
+    transition: background 2s, transform 2s;
+    
+    
+  }
+  
+  .cube4:hover {
+    background: #40040F;
+    transform: rotate(-180deg) 
+  }
+
+
+  main {
+    display: flex;
+  /*flex-direction: row;*/
+    flex-wrap: wrap;
+    justify-content: center; /* horizontale Ausrichtung */
+    align-items: stretch; /* vertikale Ausrichtung */
+    font-family: 'Faster One', cursive;
+    text-shadow: 2px 2px #fdf7f7;
+  } 
+
+  
